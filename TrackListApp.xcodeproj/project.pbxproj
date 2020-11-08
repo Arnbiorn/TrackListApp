@@ -12,6 +12,7 @@
 		49E72BE82558467000A498BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49E72BE62558467000A498BA /* Main.storyboard */; };
 		49E72BEA2558467100A498BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49E72BE92558467100A498BA /* Assets.xcassets */; };
 		49E72BED2558467100A498BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49E72BEB2558467100A498BA /* LaunchScreen.storyboard */; };
+		49E72BFD25584AEB00A498BA /* TrackListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E72BFC25584AEB00A498BA /* TrackListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		49E72BE92558467100A498BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49E72BEC2558467100A498BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49E72BEE2558467100A498BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49E72BFC25584AEB00A498BA /* TrackListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 		49E72BF825584A0C00A498BA /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				49E72BFC25584AEB00A498BA /* TrackListViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -176,6 +179,7 @@
 			files = (
 				49E72BE12558467000A498BA /* AppDelegate.swift in Sources */,
 				49E72BE32558467000A498BA /* SceneDelegate.swift in Sources */,
+				49E72BFD25584AEB00A498BA /* TrackListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
