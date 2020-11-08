@@ -13,6 +13,7 @@
 		49E72BEA2558467100A498BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49E72BE92558467100A498BA /* Assets.xcassets */; };
 		49E72BED2558467100A498BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49E72BEB2558467100A498BA /* LaunchScreen.storyboard */; };
 		49E72BFD25584AEB00A498BA /* TrackListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E72BFC25584AEB00A498BA /* TrackListViewController.swift */; };
+		49E72C0125584B3400A498BA /* TrackDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E72C0025584B3400A498BA /* TrackDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		49E72BEC2558467100A498BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49E72BEE2558467100A498BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49E72BFC25584AEB00A498BA /* TrackListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackListViewController.swift; sourceTree = "<group>"; };
+		49E72C0025584B3400A498BA /* TrackDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				49E72BFC25584AEB00A498BA /* TrackListViewController.swift */,
+				49E72C0025584B3400A498BA /* TrackDetailsViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 			files = (
 				49E72BE12558467000A498BA /* AppDelegate.swift in Sources */,
 				49E72BE32558467000A498BA /* SceneDelegate.swift in Sources */,
+				49E72C0125584B3400A498BA /* TrackDetailsViewController.swift in Sources */,
 				49E72BFD25584AEB00A498BA /* TrackListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
